@@ -18,5 +18,11 @@ def calcule():
 
     if operation == "soma" or operation == "+":
         result = soma(num_a, num_b)
+    elif operation == "subtracao" or operation == "-":
+        result = subtracao(num_a, num_b)
+    elif operation == "divisao" or operation == "/":
+        result = divisao(num_a, num_b)
+    else:
+        result = multiplicacao(num_a, num_b)
 
     print(f"O resultado da operação foi: {result}")

@@ -16,7 +16,7 @@ def calcule():
         operation = input(
             "Agora digite a operação matemática a ser realizada com esse número: ")
 
-    if operation == "soma" OR operation == "+":
+    if operation == "soma" or operation == "+":
         result = soma(num_a, num_b)
 
     print(f"O resultado da operação foi: {result}")
